@@ -8,7 +8,7 @@ export const Data = ({ d }) => {
     return (
         <div style = {{color:"#364369"}}>
             <h2>Summary: {d.summary}</h2>
-            <h3>There is a {d.precipProbability}% chance of rain</h3>
+            <h3>It is currently {d.temperature} degrees out and there is a {d.precipProbability}% chance of rain</h3>
             
         </div>
     )
